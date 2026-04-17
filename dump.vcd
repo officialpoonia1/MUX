@@ -1,0 +1,47 @@
+$date
+	Fri Apr 03 01:45:45 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! y $end
+$var reg 16 " i [15:0] $end
+$var reg 4 # s [3:0] $end
+$scope module uut $end
+$var wire 16 $ i [15:0] $end
+$var wire 4 % s [3:0] $end
+$var reg 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+b1010101010101010 $
+b0 #
+b1010101010101010 "
+0!
+$end
+#10
+1!
+b1 #
+b1 %
+#20
+0!
+b10 #
+b10 %
+#30
+1!
+b101 #
+b101 %
+#40
+b1111 #
+b1111 %
+#50
